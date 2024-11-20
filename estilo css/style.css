@@ -1,0 +1,191 @@
+*{
+    user-select: none;
+}
+
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+body{
+    background-color: black;
+    background: url(/imagem/368389188065611.6595ec176f28c.png)no-repeat ;
+    
+}
+.container{
+    /* border: 1px solid red; */
+    height: 1600px;
+}
+
+header{
+    position: fixed;
+      border: 1px solid rgb(69, 69, 70);  
+     border-radius: 8px;
+    height: 95px;
+    width: 1425px;
+    margin-top: -100px;
+    margin-left: 250px;
+    background: transparent;
+    backdrop-filter: blur(5px);
+    z-index: 1000;
+    
+}
+
+img{
+    width: 160px;
+    margin-top: 25px;
+    margin-left: 28px;
+    cursor: pointer;
+}
+
+.menu{
+    /* float: right; */
+    margin-left: 900px;
+    margin-top: -25px;
+    margin-right: 270px;
+    
+}
+
+a{
+    color: rgb(134, 134, 134);
+    text-decoration: none;
+    
+
+}
+a:hover{
+    color: white;
+}
+
+span{
+    color: rgb(94, 177, 255);
+}
+
+button{
+    margin-left: 300px;
+    background-color: rgb(104, 161, 247);
+    /* border-color: rgb(84, 178, 255); */
+    color: white;
+    /* border: none; */
+    width: 200px;
+    position: absolute;
+    top: 23px;
+    cursor: pointer;
+    font-size: 14px;
+    left: 900px;
+    height: 50px;
+    border-radius: 25px;
+}
+i:hover{
+    color: blue;
+}
+h1{
+    font-size: 15px;
+    margin-left: 25px;
+}
+h1:hover{
+    
+}
+
+i{
+    position: absolute;
+    padding-top: 16px;
+    padding-bottom: 8px;
+    padding-right: 160px;
+    /* border: 1px solid yellow; */
+    left: 4px;
+    top: -4px;
+    font-size: 25px;
+}
+
+
+button:hover{
+    background-color: white;
+    color: blue;
+}
+section{
+    /* border: 1px solid green; */
+    margin-top: 100px;
+    height: 1500px;
+}
+
+h2{
+    color: white;
+    font-size: 35px;
+    position: absolute;
+    right: 350px;
+    margin-top: 250px;
+}
+
+#img1{
+    position: absolute;
+    margin-top: 90px;
+    right: 1000px;
+    width: 700px;
+}
+h3{
+    color: white;
+    font-size: 35px;
+    position: absolute;
+    right: 550px;
+    margin-top: 290px;
+}
+
+.texto{
+    color: rgb(219, 216, 216);
+    font-size: 20px;
+    position: absolute;
+    right: 235px;
+    margin-top: 370px;
+
+}
+#botao{
+    margin-top: 550px;
+    margin-left: 500px;
+    border-radius: 0;
+    font-size: 20px;
+
+}
+
+.conteudo3{
+    display: flex;
+    
+}
+
+.card{
+     border: 1px solid rgb(168, 168, 168); 
+    padding: 100px;
+    
+    margin: -90px;
+    height: 390px;
+    margin-top: 900px;
+    margin-left: 120px;
+    background-color: rgb(214, 214, 214);
+    backdrop-filter: blur(30px);
+    border-radius: 10PX;
+
+}
+.pp{
+    color: rgb(7, 7, 7);
+    font-size: 20px;
+}
+.pp1{
+    color: rgb(7, 7, 7);
+    font-size: 20px ;
+    
+}
+.pp3{
+    font-size: 20px;
+    color: rgb(7, 7, 7);
+}
+
+#loja{
+    background-color: blue;
+    border: none;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    margin-top: 1400px;
+    width: 600px;
+    margin-left: -250px;
+    height: 90px;
+}
